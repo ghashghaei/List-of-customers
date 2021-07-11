@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('th button').each(function (col) {
+    $('th').each(function (col) {
         $(this).hover(
             function () {
                 $(this).addClass('focus');
