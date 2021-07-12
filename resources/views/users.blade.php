@@ -30,15 +30,16 @@
 
     <table class="main_tbl col-12">
         <tr class="title_t">
-            <th>id </th>
-            <th>first name <button class="sort_btn">sorting</button> </th>
-            <th>last name <button class="sort_btn">sorting</button> </th>
-            <th>email address <button class="sort_btn">sorting</button> </th>
-            <th>Registered Date <button class="sort_btn">sorting</button> </th>
+            <th id="r_1">id </th>
+            <th id="r_2">first name <button class="sort_btn">sorting</button> </th>
+            <th id="r_3">last name <button class="sort_btn">sorting</button> </th>
+            <th id="r_4">email address <button class="sort_btn">sorting</button> </th>
+            <th id="r_5">Registered Date <button class="sort_btn">sorting</button> </th>
         </tr>
 
 
         @foreach($users as $user)
+
             <tr class="title_b">
                 <td>{{ $user->id  }}</td>
                 <td>{{ $user->first_name }}</td>
@@ -46,6 +47,7 @@
                 <td>{{ $user->email_address }}</td>
                 <td>{{ $user->registered_date }}</td>
             </tr>
+
         @endforeach
 
     </table>
