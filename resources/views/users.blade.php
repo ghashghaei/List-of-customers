@@ -17,24 +17,37 @@
 </head>
 <body>
 
-<style>
-    table, th, td {
-        border: 1px solid black;
-    }
-    th {
-        cursor: pointer;
-    }
-</style>
+
 
 <div class="container row mcenter">
 
     <table class="main_tbl col-12">
         <tr class="title_t">
-            <th id="r_1">id </th>
-            <th id="r_2">first name <button class="sort_btn">sorting</button> </th>
-            <th id="r_3">last name <button class="sort_btn">sorting</button> </th>
-            <th id="r_4">email address <button class="sort_btn">sorting</button> </th>
-            <th id="r_5">Registered Date <button class="sort_btn">sorting</button> </th>
+            <th id="r_1" class="fas fa-sort-up">id</th>
+            <th id="r_2">first name
+                <div class="bar_down mcenter row">
+                    <div class="top_m col-12">▲</div>
+                    <div class="bottom_m col-12">▼</div>
+                </div>
+            </th>
+            <th id="r_3">last name
+                <div class="bar_down mcenter row">
+                    <div class="top_m col-12">▲</div>
+                    <div class="bottom_m col-12">▼</div>
+                </div>
+            </th>
+            <th id="r_4">email address
+                <div class="bar_down mcenter row">
+                    <div class="top_m col-12">▲</div>
+                    <div class="bottom_m col-12">▼</div>
+                </div>
+            </th>
+            <th id="r_5">Registered Date
+                <div class="bar_down mcenter row">
+                    <div class="top_m col-12">▲</div>
+                    <div class="bottom_m col-12">▼</div>
+                </div>
+            </th>
         </tr>
 
 
